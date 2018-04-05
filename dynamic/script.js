@@ -12,7 +12,7 @@
   }
 
   //usage:
-  loadJSON("/dynamic/data.json", function(text){
+  loadJSON("dynamic/data.json", function(text){
     let data = JSON.parse(text);
     console.log(data);
    basic(data.basics);
