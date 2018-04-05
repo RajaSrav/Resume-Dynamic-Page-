@@ -1,0 +1,95 @@
+{
+"basics":
+{
+"picture": "/images/1.gif",
+   "downlode":"Downlode",
+"name": "HI I'M G. K. RAJA",
+"designation": "web developer & web designer",
+   "description": "Hello! I’m G. K. Rajas. Web Developer with over 8 years of experience. Experienced with all stages of the development cycle for dynamic web projects. Having an in-depth knowledge including advanced HTML5, CSS3, JavaScript, jQuery, Angular JS. Strong background in management and leadership."
+},
+"data":[{
+"name": "age",
+"value": "24"
+   },
+{
+"name": "Address",
+"value": "5/4,Kadapa,Ap "
+},
+{
+"name": "Email",
+"value": "gkrajareddy@gmail.com "
+},
+{
+"name": "Phone",
+"value": "9052507933 "
+}
+],
+
+
+"skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Technologies",
+      "level": "Master",
+      "keywords": [
+        "Java", "JEE", "JNDI", "Web Services (SOAP & RestFull)"
+      ]
+    },
+    {
+      "name": "Data Base",
+      "level": "",
+      "keywords": [
+        "Oracle", "MySQL/Percona", "PostgreSQL", "MongoDB", "Cassandra"
+      ]
+    },
+    {
+      "name": "Operating System",
+      "level": "",
+      "keywords": [
+        "Windows", "UNIX & LINUX"
+      ]
+    }
+  ],
+
+  "education":[
+    {
+      "quili": "B.Tech",
+      "number":[
+        "Electronics and communication engineering",
+        "Chaitanya Bharathi Institute of Technology, proddatur",
+        "JNTU Anantapur",
+        "63%"
+      ]
+    },
+    {
+      "quili": "Intermediate",
+      "number":[
+        "Maths physics and chemistry",
+        "Sri Venkateswara Junior College, porumammilla",
+        "Board of Intermediate Education",
+        "61%"
+      ]
+
+    },
+    {
+      "quili": "SSC",
+      "number":[
+        "General",
+        "Sri Maharishi High School, porumammilla",
+        "Board of Secondary School",
+        "74%"
+      ]
+
+    }
+  ]
+
+
+}

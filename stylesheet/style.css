@@ -1,0 +1,193 @@
+html {
+background-color: #dedede;
+padding: 40px 40px 40px 40px;
+}
+.top-div-profile {
+  background-color: white;
+  display: flex;
+}
+.left-div {
+  width: 35%;
+  padding: 3px 0 0 10px;
+  display: block;
+  justify-content: space-between;
+}
+.image {
+  width: 100%;
+  display: block;
+	box-shadow: 0 0 5px rgba(0,0,0,.4);
+  padding: 3px 0 0 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+img {
+  width: 100%;
+  height: 80%;
+}
+.button{
+  margin-bottom: 25px;
+		padding: 17px 5px;
+		text-align: center;
+		box-shadow: 0 0 5px rgba(0,0,0,.4);
+		transition: all .3s;
+    padding-left: 8px;
+}
+.con {
+  text-align: center;
+}
+.button:hover {
+			box-shadow: 0 0 8px rgba(0,0,0,.30),0 0 12px rgba(0,0,0,.20);
+		}
+.right-div {
+  width: 65%;
+  padding: 0 20px 3px 30px;
+}
+.name {
+  display: inline-block;
+}
+h1 {
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  color: #0487cc;
+  text-transform: uppercase;
+}
+h3 {
+  font-size: 20px;
+  color: #757575;
+  text-transform: uppercase;
+}
+.description {
+  width: 100%;
+  font-size: 18px;
+  line-height: 28px;
+  padding-bottom: 23px;
+}
+.age {
+  font-size: 18px;
+  line-height: 28px;
+  padding: 33px;
+  color: #757575;
+}
+/* skills */
+.skills, .bottomdiv {
+width: 100%;
+text-align: center;
+}
+.skills-content {
+  width: 95%;
+  background-color: white;
+  text-align: center;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 10px 40px 40px 0px;
+}
+table {
+	width: 100%;
+}
+table, th, td {
+    border: 3px solid #eee;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#skills tr:nth-child(odd) {
+    background-color: #fff;
+}
+table#skills tr:nth-child(even) {
+   background-color:#f1f8ff;
+}
+.education {
+  width: 100%;
+  font-size: 18px;
+  line-height: 33px;
+  display: flex;
+  flex-direction: row;
+}
+.edu {
+  background-color: white;
+  width: 30%;
+  margin-bottom: 30px;
+  margin-left: 20px;
+		display: inline-block;
+		padding: 33px 10px;
+		min-height: 50px;
+		position: relative;
+		left: -45px;
+		box-shadow: 3px 3px 8px rgba(0,0,0,.4);
+}
+li {
+  list-style: none;
+}
+/* @media only screen and (max-width:1296px) {
+  .education {
+    width: 100%;
+    font-size: 18px;
+    line-height: 33px;
+    display: flex;
+    flex-direction: row;
+  }
+  .edu1, .edu2, .edu3 {
+    background-color: white;
+    width: 30%;
+    margin-bottom: 30px;
+    margin-left: 20px;
+  		display: inline-block;
+  		padding: 33px 10px;
+  		min-height: 50px;
+  		position: relative;
+  		left: -45px;
+  		box-shadow: 3px 3px 8px rgba(0,0,0,.4);
+  }
+} */
+@media only screen and (max-width:768px) {
+  .top-div-profile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .left-div {
+    width: 80%;
+    padding: 33px 0px 3px 33px;
+  }
+  .right-div {
+    width: 90%;
+  }
+  .education {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .edu1, .edu2, .edu3 {
+    background-color: white;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-left: 20px;
+  		display: inline-block;
+  		padding: 33px 10px;
+  		min-height: 50px;
+  		position: relative;
+  		left: -45px;
+  		box-shadow: 3px 3px 8px rgba(0,0,0,.4);
+  }
+}
+@media only screen and (max-width:470px) {
+  .top-div-profile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .left-div {
+    width: 80%;
+    padding: 33px 0px 3px 33px;
+  }
+  .right-div {
+    width: 90%;
+  }
+  .education {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
