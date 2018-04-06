@@ -1,7 +1,7 @@
 {
 "basics":
 {
-"picture": "/images/1.gif",
+"picture": "images/1.gif",
    "downlode":"Downlode",
 "name": "HI I'M G. K. RAJA",
 "designation": "web developer & web designer",
@@ -89,7 +89,36 @@
       ]
 
     }
+  ],
+
+  "experienc":[{
+  "job": "Progresive WEB Apps",
+  "time": "2018 - Present",
+  "company": "APSSDC",
+  "desc": [
+    "Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.",
+    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
   ]
+},
+{
+"job": "Junior Software Engineer",
+"time": "2017 - 2018",
+"company": "APSSDC, Vijayawada",
+"desc": [
+  "Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.",
+  "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+]
+},
+{
+"job": "Trainer Cum Developer",
+"time": "2016 - 2017",
+"company": "APSSD, Guntur",
+"desc": [
+  "Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.",
+  "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+]
+}
+]
 
 
 }

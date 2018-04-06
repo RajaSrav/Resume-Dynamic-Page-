@@ -120,27 +120,27 @@ table#skills tr:nth-child(even) {
 li {
   list-style: none;
 }
-/* @media only screen and (max-width:1296px) {
-  .education {
-    width: 100%;
-    font-size: 18px;
-    line-height: 33px;
-    display: flex;
-    flex-direction: row;
-  }
-  .edu1, .edu2, .edu3 {
-    background-color: white;
-    width: 30%;
-    margin-bottom: 30px;
-    margin-left: 20px;
-  		display: inline-block;
-  		padding: 33px 10px;
-  		min-height: 50px;
-  		position: relative;
-  		left: -45px;
-  		box-shadow: 3px 3px 8px rgba(0,0,0,.4);
-  }
-} */
+.experience {
+  text-align: center;
+  /* align-items: center; */
+  font-size: 18px;
+}
+.experiences-section {
+  width: 83%;
+  background-color: white;
+  margin-bottom: 30px;
+  margin-left: 30px;
+		display: inline-block;
+		padding: 33px 10px;
+		min-height: 50px;
+		position: relative;
+		left: -45px;
+		box-shadow: 3px 3px 8px rgba(0,0,0,.4);
+}
+.item {
+  line-height: 28px;
+}
+
 @media only screen and (max-width:768px) {
   .top-div-profile {
     width: 100%;
@@ -159,7 +159,7 @@ li {
     display: flex;
     flex-direction: column;
   }
-  .edu1, .edu2, .edu3 {
+  .edu {
     background-color: white;
     width: 100%;
     margin-bottom: 30px;
