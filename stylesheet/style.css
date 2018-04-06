@@ -65,11 +65,11 @@ h3 {
 .age {
   font-size: 18px;
   line-height: 28px;
-  padding: 33px;
+  padding: 53px;
   color: #757575;
 }
 /* skills */
-.skills, .bottomdiv {
+.skills, .bottomdiv, .section-title {
 width: 100%;
 text-align: center;
 }
@@ -79,7 +79,7 @@ text-align: center;
   text-align: center;
   font-size: 18px;
   line-height: 28px;
-  padding: 10px 40px 40px 0px;
+  /* padding: 10px 40px 40px 0px; */
 }
 table {
 	width: 100%;
@@ -105,7 +105,7 @@ table#skills tr:nth-child(even) {
   display: flex;
   flex-direction: row;
 }
-.edu {
+.edu1, .edu2, .edu3 {
   background-color: white;
   width: 30%;
   margin-bottom: 30px;
@@ -126,27 +126,34 @@ li {
   font-size: 18px;
 }
 .experiences-section {
-  width: 83%;
-  background-color: white;
   margin-bottom: 30px;
   margin-left: 30px;
 		display: inline-block;
-		padding: 33px 10px;
+		padding: 23px 55px 10px 53px;
 		min-height: 50px;
 		position: relative;
 		left: -45px;
-		box-shadow: 3px 3px 8px rgba(0,0,0,.4);
 }
 .item {
-  line-height: 28px;
+  background-color: white;
+  line-height: 33px;
+  width: 100%;
+  box-shadow: 3px 3px 8px rgba(0,0,0,.4);
+  font-size: 18px;
 }
-
 @media only screen and (max-width:768px) {
   .top-div-profile {
     width: 100%;
     display: flex;
     flex-direction: column;
   }
+  .item {
+  background-color: white;
+  line-height: 33px;
+  width: 100%;
+  box-shadow: 3px 3px 8px rgba(0,0,0,.4);
+  font-size: 18px;
+}
   .left-div {
     width: 80%;
     padding: 33px 0px 3px 33px;
@@ -159,7 +166,7 @@ li {
     display: flex;
     flex-direction: column;
   }
-  .edu {
+  .edu1, .edu2, .edu3 {
     background-color: white;
     width: 100%;
     margin-bottom: 30px;
@@ -190,4 +197,20 @@ li {
     display: flex;
     flex-direction: column;
   }
+  h1 {
+    font-size: 33px;
+    font-family: 'Oswald', sans-serif;
+    color: #0487cc;
+    text-transform: uppercase;
+  }
+  .item {
+  background-color: white;
+  line-height: 33px;
+  width: 100%;
+  box-shadow: 3px 3px 8px rgba(0,0,0,.4);
+  font-size: 18px;
+}
+.experiences-section {
+  padding: 10px 10px 10px 10px;
+}
 }
