@@ -105,7 +105,7 @@ table#skills tr:nth-child(even) {
   display: flex;
   flex-direction: row;
 }
-.edu1, .edu2, .edu3 {
+.edu {
   background-color: white;
   width: 30%;
   margin-bottom: 30px;
@@ -166,7 +166,7 @@ li {
     display: flex;
     flex-direction: column;
   }
-  .edu1, .edu2, .edu3 {
+  .edu {
     background-color: white;
     width: 100%;
     margin-bottom: 30px;
